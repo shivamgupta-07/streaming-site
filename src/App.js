@@ -10,8 +10,8 @@ function App() {
       <Router>
         <Header/>
         <Routes>
-          <Route exact path = "" element = {<Login />}></Route>
-          
+          <Route exact path = "/" element = {<Login />}></Route>
+          <Route exact path = "/home" element = {<Home />}></Route>
         </Routes>
       </Router>
     </div>
