@@ -6,8 +6,7 @@ const Login = (props) => {
         <Content>
             <BgImage />
           <CTA> 
-            <CTALogoOne src="/images/cta-logo-one.svg" alt="" />
-            <SignUp>GET ALL THERE</SignUp>
+            <CTALogoOne src="/images/myflix.png" alt="" />
             <Description>
               Get Premium Access to Sports and the Marvel Movies for an additional fee
               with a Disney+ subscription. As of 23/07/21, the price of Disney+
@@ -61,37 +60,22 @@ const Login = (props) => {
     width: 100%;
     display: flex;
     flex-direction: column;
+    position: relative;
+    margin: auto;
+    margin-top: 10px;
   `;
   
   const CTALogoOne = styled.img`
-    margin-bottom: 12px;
-    max-width: 600px;
+    max-width: 400px;
     min-height: 1px;
-    display: block;
-    width: 100%;
-  `;
-  
-  const SignUp = styled.a`
-    font-weight: bold;
-    color: #f9f9f9;
-    background-color: #0063e5;
-    margin-bottom: 12px;
-    width: 100%;
-    letter-spacing: 1.5px;
-    font-size: 18px;
-    padding: 16.5px 0;
-    border: 1px solid transparent;
-    border-radius: 4px;
-  
-    &:hover {
-      background-color: #0483ee;
-    }
+    margin-bottom: 0;
+    margin: auto;
   `;
   
   const Description = styled.p`
+    position: absolute;
+    bottom: 50px;
     color: hsla(0, 0%, 95.3%, 1);
-    font-size: 11px;
-    margin: 0 0 24px;
     line-height: 1.5;
     letter-spacing: 1.5px;
   `;
@@ -99,9 +83,12 @@ const Login = (props) => {
   const CTALogoTwo = styled.img`
     max-width: 600px;
     margin-bottom: 20px;
-    display: inline-block;
-    vertical-align: bottom;
     width: 100%;
+    margin: auto;
+    position: absolute;
+    right: 0;
+    left: 0;
+    bottom: 20px;
   `;
 
   export default Login  

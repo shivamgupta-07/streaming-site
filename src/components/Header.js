@@ -62,7 +62,7 @@ const Header = (props) =>{
   return(
     <Nav>
       <Logo>
-        <img src="/images/logo.svg" alt="Disney+" />
+        <img src="/images/myflix.png" alt="Disney+" />
       </Logo>
 
       {
@@ -127,7 +127,7 @@ const Nav = styled.nav`
 const Logo = styled.a`
   padding: 0;
   width: 80px;
-  margin-top: 4px;
+  margin-top: 0px;
   max-height: 70px;
   font-size: 0;
   display: inline-block;
