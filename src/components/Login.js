@@ -8,9 +8,10 @@ const Login = (props) => {
           <CTA> 
             <CTALogoOne src="/images/myflix.png" alt="" />
             <Description>
-              Get Premium Access to Sports and the Marvel Movies for an additional fee
-              with a Disney+ subscription. As of 23/07/21, the price of Disney+
-              and The Disney Bundle will increase by ₹12    00.
+              Discover new movies and shows to watch on your favourite platforms,
+              with different categories and having trailers for them in the same.
+              Login with your Google Account to begin the process. 
+              <strong>Happy Exploring!</strong>
             </Description>
             <CTALogoTwo src="/images/cta-logo-two.png" alt="" />
           </CTA>
