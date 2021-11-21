@@ -61,21 +61,18 @@ const Login = (props) => {
     width: 100%;
     display: flex;
     flex-direction: column;
-    position: relative;
-    margin: auto;
-    margin-top: 10px;
   `;
   
   const CTALogoOne = styled.img`
-    max-width: 400px;
+    margin-bottom: 12px;
+    max-width: 600px;
     min-height: 1px;
-    margin-bottom: 0;
+    display: block;
+    width: 100%;
     margin: auto;
-  `;
+`;
   
   const Description = styled.p`
-    position: absolute;
-    bottom: 50px;
     color: hsla(0, 0%, 95.3%, 1);
     line-height: 1.5;
     letter-spacing: 1.5px;
@@ -86,10 +83,7 @@ const Login = (props) => {
     margin-bottom: 20px;
     width: 100%;
     margin: auto;
-    position: absolute;
-    right: 0;
-    left: 0;
-    bottom: 20px;
+
   `;
 
   export default Login  
